@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ArtSuave | Categoria</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <main>
+        
+        <div class="container">
+
+          <div class="painel">
+            <h2>Verificação de Categoria</h2>
+              <div class="conteudo_painel">
+                <form action="verifica.php" method="POST">
+
+              
+                  <label for="idade">Idade</label>
+                  <input type="text" class="campoTexto" name="idade" placeholder="18" required>
+                
+
+                  
+                    <label for="peso">Peso</label>
+                    <input type="text" class="campoTexto" name="peso" placeholder="50.0" required>
+                  
+
+                    
+                      <label for="sexo">Sexo</label>
+                        <select class="campoTexto" name="sexo" required>
+                          <option value="">Selecione a opção</option>
+                          <option value="Masculino">Masculino</option>
+                          <option value="Feminino">Feminino</option>
+                        </select>
+                    
+
+                      
+                        <label for="faixa">Faixa</label>
+                          <select class="campoTexto" name="faixa" required>
+                            <option value="">Selecione a opção</option>
+                            <option value="Branca">Branca</option>
+                            <option value="Cinza/Branca">Cinza/Branca</option>
+                            <option value="Cinza">Cinza</option>
+                            <option value="Cinza/Preta">Cinza/Preta</option>
+                            <option value="Amarela/Branca">Amarela/Branca</option>
+                            <option value="Amarela">Amarela</option>
+                            <option value="Amarela/Preta">Amarela/Preta</option>
+                            <option value="Laranja/Branca">Laranja/Branca</option>
+                            <option value="Laranja">Laranja</option>
+                            <option value="Laranja/Preta">Laranja/Preta</option>
+                            <option value="Verde/Branca">Verde/Branca</option>
+                            <option value="Verde">Verde</option>
+                            <option value="Verde/Preta">Verde/Preta</option>
+                            <option value="Azul">Azul</option>
+                            <option value="Roxa">Roxa</option>
+                            <option value="Marrom">Marrom</option>
+                            <option value="Preta">Preta</option>
+                            <option value="Vermelha/Preta">Vermelha/Preta</option>
+                            <option value="Vermelha/Branca">Vermelha/Branca</option>
+                            <option value="Vermelha">Vermelha</option>
+                          </select>
+                      
+
+                        
+                          <button class="botao" type="submit">Verificar</button>
+                          
+                          <button class="botao" type="reset">Limpar</button>
+                                                                                    
+                </form>
+              </div>
+          </div>
+        </div>
+        </main> 
+
+        <footer>
+          <a href="https://instagram.com/elpapirador">Desenvolvedor</a></p>
+        </footer>
+    </body>
+</html>
